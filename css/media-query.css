@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1150px) {
+    .header-wrapper {
+        width: auto;
+        margin: 0 15px;
+    }
+    .user-feed-body {
+        width: 90%;
+    }
+    .user-suggestions {
+        right: 5%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .user-feed-body {
+        width: 95%;
+    }
+    .user-suggestions {
+        right: 2%;
+    }
+}
+
+@media only screen and (max-width: 1015px) {
+    .user-feed-body {
+        width: 620px;
+        margin: initial auto;
+    }
+    .user-suggestions {
+        display: none;
+    }
+    .main-inbox-section-container {
+        width: 85%;
+        margin: auto;
+        left: 7%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .main-inbox-section-container {
+        width: 98%;
+        margin: auto;
+        left: 0.5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    input[type="search"] {
+        display: none;
+    }
+}

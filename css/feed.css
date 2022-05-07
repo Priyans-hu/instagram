@@ -1,0 +1,74 @@
+.user-feed-body {
+    margin: auto;
+    margin-top: 90px;
+    width: 70%;
+    display: flex;
+}
+
+.stories-container {
+    width: 620px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.story-wrapper {
+    display: flex;
+    position: relative;
+    overflow: auto;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.story {
+    height: 100%;
+    width: 100px;
+    margin: 0 6px;
+    padding-top: 10px;
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.story a {
+    text-decoration: none;
+}
+
+.story-user-img {
+    margin: auto;
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: red 2px solid;
+}
+
+.story-user-img-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.story-user-name {
+    color: black;
+    width: 70px;
+    margin-top: 4px;
+    overflow: hidden;
+    text-decoration: none;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+    font-size: 0.9em;
+    word-break: break-all;
+    text-overflow: ellipsis;
+}
+
+.story-user-name::first-line {
+    display: initial;
+}

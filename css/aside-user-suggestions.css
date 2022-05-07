@@ -1,0 +1,127 @@
+.user-suggestions {
+    right: 15%;
+    top: 80px;
+    width: 300px;
+    float: left;
+    display: flex;
+    position: fixed;
+    overflow: hidden;
+    margin: 0 15px;
+}
+
+
+/* my account aside area */
+
+.user-me-my-account {
+    padding: 10px;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-top: 15px;
+    display: flex;
+}
+
+.user-suggestions-img {
+    height: 60px;
+    width: 60px;
+    margin: 0 15px 0 0;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 1px 1px, white 0 0px 1px 3px, rgba(0, 0, 0, 0.3) 0 0 1px 4px;
+}
+
+.user-switch-option a {
+    position: absolute;
+    right: 0;
+    color: rgb(35, 185, 255);
+    text-decoration: none;
+    font-size: small;
+    font-weight: 500;
+}
+
+.user-name-username p:first-child {
+    font-size: 900;
+    font-size: 1.15em;
+}
+
+.user-name-username p:nth-child(2) {
+    color: gray;
+}
+
+
+/* my account aside area complete */
+
+.user-new-user-suggestions {
+    margin-top: 20px;
+}
+
+.user-new-user-suggestions h3 {
+    display: inline;
+}
+
+.user-new-user-suggestions h3:nth-child(1) {
+    margin-left: 0px;
+}
+
+.user-new-user-suggestions h3:nth-child(2) {
+    position: absolute;
+    right: 0;
+}
+
+
+/* suggested users to follow area */
+
+.user-new-user-sub-suggestions {
+    margin-top: 10px;
+}
+
+.suggested-user-account {
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.suggested-user-img {
+    height: 35px;
+    width: 35px;
+    margin: 0 15px 0 0;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 1px 1px, white 0 0px 1px 3px, rgba(0, 0, 0, 0.3) 0 0 1px 4px;
+}
+
+.suggested-user-follow a {
+    position: absolute;
+    right: 0;
+    color: rgb(35, 185, 255);
+    text-decoration: none;
+    font-size: small;
+    font-weight: 500;
+}
+
+.suggested-user-username p:first-child {
+    font-size: 900;
+    font-size: 1.03em;
+}
+
+.suggested-user-username p:nth-child(2) {
+    color: gray;
+}
+
+.insta-settings {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 1em;
+}
+
+.insta-settings a {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.85em;
+    text-decoration: none;
+}
+
+.insta-settings a::after {
+    content: " \2022";
+    font-weight: 900;
+    align-items: center;
+}

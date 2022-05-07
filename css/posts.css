@@ -1,0 +1,125 @@
+.posts-conatiner {
+    margin-top: 40px;
+    width: 620px;
+    /* overflow: hidden; */
+}
+
+.post {
+    position: relative;
+    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px;
+}
+
+.post-header {
+    width: inherit;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: white;
+}
+
+.post-user-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.post-user-info p:first-child {
+    font-weight: bold;
+}
+
+.post-user-options {
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+}
+
+.post-user-options::after {
+    content: " \2022\2022\2022";
+}
+
+.post-content {
+    cursor: pointer;
+    min-height: 250px;
+    overflow: hidden;
+}
+
+.post-content img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.post-reactions {
+    background-color: white;
+    padding: 15px;
+}
+
+.post-reaction-buttons {
+    display: flex;
+}
+
+.post-reactions i {
+    font-weight: lighter;
+    font-size: 1.8em;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.post-reactions .post-comment i {
+    margin-right: 15px;
+    transform: rotateY(180deg);
+}
+
+.post-reactions .post-reaction-buttons .post-save {
+    position: absolute;
+    right: 5px;
+}
+
+.post-reactions .post-like-count {
+    margin-top: 7px;
+}
+
+.post-user-caption {
+    margin: 7px 0 3px 0;
+}
+
+.post-comments .comment i {
+    font-size: x-small;
+    position: absolute;
+    right: 0;
+}
+
+.post-time {
+    margin: 5px 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.post-new-comment {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    border-top: rgba(0, 0, 0, 0.2) solid 1px;
+    padding-top: 5px;
+}
+
+.post-new-comment input {
+    padding: 10px;
+    width: 90%;
+    border: none;
+}
+
+.post-new-comment input:focus {
+    outline: rgba(0, 0, 0, 0.2) solid 1px;
+}
+
+.post-new-comment p {
+    position: absolute;
+    right: 15px;
+    opacity: 0.7;
+    font-weight: bold;
+    color: royalblue;
+}

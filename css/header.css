@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.header-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+    justify-content: center;
+    background-color: white;
+}
+
+.header-wrapper {
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.header-wrapper a img {
+    padding-top: 10px;
+}
+
+.main-options {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    vertical-align: middle;
+}
+
+input[type="search"] {
+    margin: auto;
+    width: 235px;
+    border: none;
+    padding: 8px;
+    outline: none;
+    font-size: 1em;
+    font-weight: 100;
+    justify-self: center;
+    border-radius: 0.4rem;
+    background-color: rgba(150, 150, 150, 0.15);
+}
+
+div .options {
+    width: max-content;
+}
+
+div.options i {
+    color: black;
+    font-weight: lighter;
+    font-size: x-large;
+    margin: 0 10px;
+}
+
+#message {
+    position: relative;
+}
+
+#message::after {
+    top: -5px;
+    right: -5px;
+    padding: 3px;
+    content: "10";
+    color: white;
+    font-size: x-small;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+}
