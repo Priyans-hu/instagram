@@ -9,6 +9,9 @@ body {
     background-color: rgba(0, 0, 0, 0.04);
 }
 
+.story-wrapper::-webkit-scrollbar {
+    width: 0 !important; //hides scrollbar in chrome
+}
 .header-container {
     top: 0;
     left: 0;
